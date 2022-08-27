@@ -25,8 +25,7 @@ class _secondState extends State<second> {
             ElevatedButton(onPressed: (){
             Navigator.pop(context, ctrPhone.text);
             },child: Text("Submit")
-            )
-
+            )  
           ],
         ),
       ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitledfdfd/second.dart';
+import 'package:flutter_application_2/second.dart';
 
 class formregistrasi extends StatefulWidget {
   const formregistrasi({Key? key}) : super(key: key);
@@ -17,7 +17,7 @@ class _formregistrasiState extends State<formregistrasi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Form Registrasi"),),
+      //appBar: AppBar(title: Text("Form Registrasi"),),
       body: Container(
         margin: EdgeInsets.all(10),
         child: Column(

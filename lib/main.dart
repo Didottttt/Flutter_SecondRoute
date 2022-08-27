@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:untitledfdfd/formregistrasi.dart';
+import 'package:flutter_application_2/tabview.dart';
+import 'package:flutter_application_2/ListAllFootbal.dart';
+import 'package:flutter_application_2/TabbarExample.dart';
+import 'package:flutter_application_2/formregistrasi.dart';
+import 'package:flutter_application_2/tabview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const formregistrasi(),
+      home: tabview(),
     );
   }
 }
